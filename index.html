@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="container">
+        <h1>Search Your Favorite Movies</h1>
+
+        <form>
+            <input type="text" id="inp" placeholder="Search here..">
+            <button>Search</button>
+        </form>
+       </section>
+       <section id="p2">
+
+        <input type="radio" value="grey" onclick="grey()">
+        <input type="radio" value="red" onclick="red()">
+        <input type="radio" value="blue" onclick="blue()">
+        <input type="radio" value="orange" onclick="orange()">
+        <input type="radio" value="green" onclick="green()">
+    </section>
+
+       <section id="p3">
+        <div id="list"></div>
+       </section>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
